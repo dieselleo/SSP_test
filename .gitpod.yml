@@ -1,2 +1,2 @@
-task:
+tasks:
   - command: npm i -g xslt3
