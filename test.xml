@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<menu>
+    <section name="Drinks">
+		<option>
+			<item>Coke</item>
+			<price>3.00</price>
+		</option>
+		<option>
+			<item>Sprite</item>
+			<price>3.00</price>
+		</option>
+		<option vegetarian="true">
+			<item>Kombucha</item>
+			<price>2.00</price>
+		</option>
+	</section>
+	<section name="Side Dishes">
+		<option>
+			<item>Wings</item>
+			<price>8.45</price>
+		</option>
+		<option>
+			<item>Sausages</item>
+			<price>6.25</price>
+		</option>
+		<option vegetarian="true">
+			<item>Fries</item>
+			<price>4.00</price>
+		</option>
+	</section>
+	<section name="Breakfast">
+		<option>
+			<item>Omelette</item>
+			<price>10.65</price>
+		</option>
+		<option>
+			<item>Full Irish</item>
+			<price>12.95</price>
+		</option>
+		<option vegetarian="true">
+			<item>Avocado Toast</item>
+			<price>8.75</price>
+		</option>
+	</section>
+	<section name="Lunch">
+		<option>
+			<item>Soup of the Day</item>
+			<price>9.25</price>
+		</option>
+		<option>
+			<item>5oz Steak Sandwich</item>
+			<price>19.85</price>
+		</option>
+		<option vegetarian="true">
+			<item>Eggs and Avocado Salad</item>
+			<price>13.50</price>
+		</option>
+	</section>
+	<section name="Dinner">
+		<option>
+			<item>Pork Ribs</item>
+			<price>16.85</price>
+		</option>
+		<option>
+			<item>10oz Center Filet Steak</item>
+			<price>25.50</price>
+		</option>
+		<option vegetarian="true">
+			<item>Vegetarian Burger</item>
+			<price>15.55</price>
+		</option>
+	</section>
+</menu>
