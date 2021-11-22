@@ -9,12 +9,15 @@ const   http = require('http'),
 const   router = express(),
         server = http.createServer(router);
 
+router.use(express.static(path.resolve(__dirname,'views'))); //We serve static content from "views" folder
+
+
 router.get('/',function(req, res){
     
     res.writeHead(200,{'Content-Type' : 'text/html'});
 
-    let xml = fs.readFileSync('test.xml', 'utf8'),
-        xsl = fs.readFileSync('test.xsl', 'utf8');
+    let xml = fs.readFileSync('paddyscafe.xml', 'utf8'),
+        xsl = fs.readFileSync('paddyscafe.xsl', 'utf8');
 
     let doc = xmlParse(xml),
         stylesheet = xmlParse(xsl);
